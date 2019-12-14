@@ -24,6 +24,7 @@ node
  
  }
 
+    /*
  stage('Build')
  {
   sh "${mavenHome}/bin/mvn package"
@@ -62,5 +63,6 @@ sh  "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@1
  9980923226.''', subject: 'Buid is over...', to: 'devopstrainingblr@gmail.com'
  
  }
+ */
 
 }
